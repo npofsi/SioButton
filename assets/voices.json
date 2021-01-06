@@ -16,6 +16,24 @@
             "en": "",
             "ja": ""
           }
+        },
+        {
+          "name": "sio-002",
+          "path": "sio-002.aac",
+          "description": {
+            "zh": "啊，我女朋友回来啦",
+            "en": "",
+            "ja": ""
+          }
+        },
+        {
+          "name": "sio-003",
+          "path": "sio-003.aac",
+          "description": {
+            "zh": "mei酱!欢迎回家",
+            "en": "",
+            "ja": "めっちゃん！お帰り！"
+          }
         }
       ]
     }
