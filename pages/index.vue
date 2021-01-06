@@ -70,20 +70,30 @@
         <SkeletonLoading :loading="lives_loading">
           <v-card-text>
             <!-- 正在直播 -->
-            <div>
-              <div v-if="data.live.code != 0" :class="dark_text">
-                <span class="warning--text">{{ $t('live.on_air') }}</span>
-                <a :href="data.live.link" :content="data.live.title">{{ data.live.title }}</a>
-                <img :src="data.live.img" width="100%" />
-              </div>
-            </div>
-            <!-- 计划中的直播 -->
-            <div>
-              <div :class="dark_text">
-                <span>{{ $t('live.schedule') }}</span>
-                <img :src="data.timetable.img" width="100%" />
-              </div>
-            </div>
+            <v-container>
+              <v-row>
+                <!-- 计划中的直播 -->
+                <v-col xs="12" md="6">
+                  <div>
+                    <div :class="dark_text">
+                      <span>{{ $t('live.schedule') }}</span>
+                      <br />
+                      <img :src="data.timetable.img" width="100%" />
+                    </div>
+                  </div>
+                </v-col>
+                <v-col xs="12" md="6">
+                  <div>
+                    <div v-if="data.live.code != 0" :class="dark_text">
+                      <span class="warning--text">{{ $t('live.on_air') }}</span>
+                      <a :href="data.live.link" :content="data.live.title">{{ data.live.title }}</a>
+                      <br />
+                      <img referrerpolicy="noreferrer" :src="data.live.img" width="100%" />
+                    </div>
+                  </div>
+                </v-col>
+              </v-row>
+            </v-container>
             <div class="notification-board" v-html="$md.render($t('live.notification'))"></div>
           </v-card-text>
         </SkeletonLoading>
