@@ -269,7 +269,6 @@ export default {
   methods: {
     async fetch_live_data() {
       const query_url = 'https://hosimiyasio.com/api/live.php';
-      //const channel = 0; // 用不上
       this.$axios
         .get(query_url, { params: {} })
         .then(res => {
