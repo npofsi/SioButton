@@ -70,17 +70,17 @@
         <SkeletonLoading :loading="lives_loading">
           <v-card-text>
             <!-- 正在直播 -->
-            <div v-for="live in lives" :key="live.id">
-              <div v-if="live.title.length" :class="dark_text">
+            <div>
+              <div :class="dark_text">
                 <span class="warning--text">{{ $t('live.on_air') }}</span>
-                <a :href="live.video_link">live.title</a>
+                <a :href="live.video_link">:live.title</a>
               </div>
             </div>
             <!-- 计划中的直播 -->
-            <div v-for="live in upcoming_lives" :key="live.id">
-              <div v-if="live.title.length" :class="dark_text">
+            <div>
+              <div :class="dark_text">
                 <span>{{ $t('live.schedule') }}</span>
-                <img src="live.upcoming" width="100%" />
+                <img :src="live.upcoming" width="100%" />
               </div>
             </div>
             <div class="notification-board" v-html="$md.render($t('live.notification'))"></div>
