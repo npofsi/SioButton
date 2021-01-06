@@ -1,25 +1,14 @@
-# 狐按钮 / FUBUKI-BUTTON
+# 汐按钮 / SIO-BUTTON
 
-![Version](https://img.shields.io/github/package-json/v/voosc/fubuki-button)
-![Build](https://img.shields.io/github/workflow/status/voosc/fubuki-button/FBK-BTN-NG-CI)
-![Last Commit](https://img.shields.io/github/last-commit/voosc/fubuki-button)
-![Stars](https://img.shields.io/github/stars/voosc/fubuki-button)
 
-README: **中文** | [日本語](https://github.com/voosc/fubuki-button/blob/master/README.JA.md) | [English](https://github.com/voosc/fubuki-button/blob/master/README.EN.md)
-
-**由于Cover Crop及其Hololive子公司对桐生可可涉台问题毫无作为，处理方式极其不专业不妥当，一次又一次突破我们的底线，以及白上吹雪对此次事件的态度也基本明朗，我们决定关闭狐按钮的访问并永久停更这个项目。**
-
-**Due to Cover Crop and its Hololive subsidiary's inaction and extremely unprofessional and inappropriate handling of Kiryuu Coco's involvement in Taiwan, which has broken our boundaries time and time again, as well as Shirakami Fubuki's generally clear attitude towards this incident, we have decided to shut down access to the fubuki button and permanently suspend the project.**
-
-**（グーグル翻訳）桐生ココアの台湾への関与について、カバークロップとそのホロライブ子会社の不作為と極めて非専門的かつ不適切な対応により、何度も我々の境界線を破ってきたことと、今回の事件に対する白上フブキの態度により、フブキボタンへのアクセスを停止し、プロジェクトを永久に停止することを決定しました。**
-
-项目地址： https://fubuki.moe
+项目地址： https://hosimiyas.io/
 
 相关链接:
 
-- [白上吹雪的 YouTube 频道](https://www.youtube.com/channel/UCdn5BQ06XqgXoAxIhbqw5Rg)
-- [白上吹雪的 Bilibili 频道](https://space.bilibili.com/332704117)
-- [白上吹雪的 Twitter](https://twitter.com/shirakamifubuki)
+- [星宮汐的 Twitch 频道](https://www.twitch.tv/hosimiyasio)
+- [星宮汐的 YouTube 频道](http://bit.ly/38zay0t)
+- [星宮汐的 Bilibili 频道](https://space.bilibili.com/402417817)
+- [星宮汐的 Twitter](https://twitter.com/Hosimiya_Sio)
 
 ## 计划中的特性
 
@@ -31,7 +20,7 @@ README: **中文** | [日本語](https://github.com/voosc/fubuki-button/blob/mas
 
 如果您不知道如何直接参与GitHub开发，可以直接将素材或意见建议发送到[voice@fubuki.moe](mailto:voice@fubuki.moe)，带上标题、内容以及您的ID（Bilibili、Twitter等均可），贡献者名单将会有您的名字。
 
-当然您也可以发在 [Issues](https://github.com/voosc/fubuki-button/issues) ，同样也请带上标题和内容。
+当然您也可以发在 [Issues](https://github.com/npofsi/SioButton/issues) ，同样也请带上标题和内容。
 
 如果您可以进行开发，那么请Fork本项目进行修改，完成修改后在本项目中发起一个Pull Request，详细说明如下：
 
@@ -62,43 +51,21 @@ README: **中文** | [日本語](https://github.com/voosc/fubuki-button/blob/mas
 
 开发：
 
-- GitHub [孤单离子](https://github.com/lonelyion)
-- GitHub [Asrui Morus](https://github.com/Morxi)
+- GitHub [npofsi](https://github.com/npofsi)
+- GitHub [寒曦朦](https://github.com/hanximeng)
 
 音频剪辑：
 
-- Bilibili [孤单离子](https://space.bilibili.com/7564991)
-- Bilibili [清流ht](https://space.bilibili.com/22311554)
-- Bilibili [绯月天则](https://space.bilibili.com/1592713)
-- Bilibili [hanyuu](https://m.bilibili.com/space/356250024)
-- Bilibili [蓝颜知渡](https://space.bilibili.com/378488520)
+- Bilibili [寒曦朦](https://space.bilibili.com/28127254)
 
 翻译：
 
-- Bilibili [噬魂韩植](https://space.bilibili.com/35595270)
-- GitHub [Dakumasu](https://github.com/dakuamsu)
-- GitHub [Yourein](https://github.com/Yourein)
-- Twitter [nekoy0212anagi](https://twitter.com/nekoy0212anagi)
-- GitHub [Emmmer](https://github.com/ShirakamiEmmmer)
-
-特别感谢：
-
-- [VTuber Music](https://vtbmusic.com/)
-- Bilibili [吹雪的猫咪茶铺](https://space.bilibili.com/431210892)
-- Bilibili [白上吹雪周报](https://space.bilibili.com/487763794)
-- Bilibili [戌神沁音的手指面包店](https://space.bilibili.com/45070033)
-- Bilibili [亡音ちゃん](https://space.bilibili.com/2613724)
-- 以及以下在GitHub参与过项目的各位
-
-[![GitHub Contributors](https://contributors-img.web.app/image?repo=voosc/fubuki-button)](https://github.com/voosc/fubuki-button/graphs/contributors)
 
 ## 协议
 
-音频部分: [Hololive 二次创作条款](https://www.hololive.tv/terms) (只有日语).
+其他部分：[MIT License](https://github.com/npofsi/SioButton/blob/master/LICENSE)
 
-其他部分：[MIT License](https://github.com/voosc/fubuki-button/blob/master/LICENSE)
-
-本项目为爱好者作品，和 Hololive 官方没有关联
+本项目为爱好者作品，和 星宮汐 官方没有关联
 
 ## 支持
 
