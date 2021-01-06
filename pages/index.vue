@@ -166,6 +166,9 @@ export default {
   },
   data() {
     return {
+      live: {
+        video_link: ''
+      },
       icons: {
         close: mdiClose,
         play: mdiPlay,
