@@ -109,10 +109,10 @@ export default {
     workbox: {
       runtimeCaching: [
         {
-          urlPattern: 'https://cdn.jsdelivr.net/gh/voosc/fubuki-button@master/static/voices/*'
+          urlPattern: '/voices/*'
         },
         {
-          urlPattern: 'https://emoji.lonelyion.com/svg/*'
+          urlPattern: '/svg/*'
         }
       ]
     }
@@ -126,7 +126,7 @@ export default {
   },
   sitemap: {
     path: '/sitemap.xml',
-    hostname: 'https://fubuki.moe',
+    hostname: 'https://hosimiyas.io',
     routes: [
       {
         url: '/',

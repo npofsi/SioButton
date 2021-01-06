@@ -147,8 +147,8 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 import voice_lists from '~/assets/voices.json';
 import DevWarning from '../components/DevWarning';
 import VoiceBtn from '../components/VoiceBtn';
-//import YoutubeLink from '../components/YoutubeLink';
-//import SkeletonLoading from '../components/SkeletonLoading';
+import YoutubeLink from '../components/YoutubeLink';
+import SkeletonLoading from '../components/SkeletonLoading';
 import {
   mdiClockOutline,
   mdiClose,
@@ -162,10 +162,10 @@ import {
 
 export default {
   components: {
-    //YoutubeLink,
+    YoutubeLink,
     VoiceBtn,
-    DevWarning
-    //SkeletonLoading
+    DevWarning,
+    SkeletonLoading
   },
   data() {
     return {
@@ -205,7 +205,7 @@ export default {
     voice_button_color() {
       return {
         'light-blue darken-4': this.$vuetify.theme.dark,
-        'blue lighten-2 white--text': !this.$vuetify.theme.dark
+        'blue darken-1 white--text': !this.$vuetify.theme.dark
       };
     },
     fab_icon() {
@@ -215,7 +215,7 @@ export default {
       return [this.$vuetify.theme.dark ? 'indigo darken-1' : 'white'];
     },
     speed_dial_color: function () {
-      return [this.$vuetify.theme.dark ? 'cyan darken-1' : 'cyan lighten-2'];
+      return [this.$vuetify.theme.dark ? 'lime darken-1' : 'lime accent-2'];
     },
     current_locale() {
       return this.$i18n.locale;
