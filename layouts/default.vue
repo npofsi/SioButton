@@ -85,7 +85,6 @@
     >
       <v-app-bar-nav-icon class="white--text" @click.stop="drawer = !drawer" />
       <v-toolbar-title v-text="$t('site.title') + '🌟🐧'" />
-      <v-img src="/img/oruyanke_transparent.png" style="max-width: 24px; margin-left: 6px;" />
       <v-spacer />
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
@@ -280,14 +279,14 @@ export default {
           title: 'Bilibili',
           to: 'https://space.bilibili.com/402417817'
         }
-      ] //,
-      //external_cn: [
-      //  {
-      //    icon: 'alpha_b_box',
-      //    title: '御宅白狐的狐笋之林',
-      //    to: 'https://space.bilibili.com/314977548'
-      //  }
-      //]
+      ],
+      external_cn: [
+        {
+          icon: 'alpha_b_box',
+          title: '',
+          to: ''
+        }
+      ]
     };
   },
   computed: {

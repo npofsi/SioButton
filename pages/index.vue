@@ -203,9 +203,10 @@ export default {
   },
   computed: {
     voice_host() {
-      if (process.env.NODE_ENV === 'production')
-        return 'https://cdn.jsdelivr.net/gh/voosc/fubuki-button@master/static/voices/';
-      else return '/voices/';
+      // if (process.env.NODE_ENV === 'production')
+      //   return 'https://cdn.jsdelivr.net/gh/voosc/fubuki-button@master/static/voices/';
+      // else
+      return '/voices/';
     },
     dark_text() {
       return {
