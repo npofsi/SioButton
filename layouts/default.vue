@@ -109,12 +109,12 @@
           <v-list-item id="lang-switch-zh" @click="switch_lang('zh')">
             <v-list-item-title>简体中文</v-list-item-title>
           </v-list-item>
-          <v-list-item id="lang-switch-ja" @click="switch_lang('ja')">
+          <!--<v-list-item id="lang-switch-ja" @click="switch_lang('ja')">
             <v-list-item-title>日本語</v-list-item-title>
           </v-list-item>
           <v-list-item id="lang-switch-en" @click="switch_lang('en')">
             <v-list-item-title>English</v-list-item-title>
-          </v-list-item>
+          </v-list-item>-->
         </v-list>
       </v-menu>
     </v-app-bar>
@@ -127,18 +127,18 @@
           <div style="vertical-align: middle;">
             <span>&copy; {{ new Date().getFullYear() }} </span>
             <span>
-              <a href="https://github.com/lonelyion" target="_blank" rel="noreferrer">
+              <a href="https://github.com/npofsi" target="_blank" rel="noreferrer">
                 {{ $t('site.footer.lonely_ion') }}
               </a>
             </span>
             <span>
-              <a href="https://space.bilibili.com/314977548" target="_blank" rel="noreferrer">
+              <a href="https://space.bilibili.com/28127254" target="_blank" rel="noreferrer">
                 {{ $t('site.footer.oruyanke') }}
               </a>
             </span>
             <v-btn
               icon
-              href="https://github.com/voosc/fubuki-button"
+              href="https://github.com/npofsi/SioButton/"
               target="_blank"
               style="vertical-align: middle;"
               rel="noreferrer"
@@ -152,15 +152,6 @@
               <img :src="vercel_logo" alt="vercel" height="16px" />
             </a>
           </div>
-          <!--
-          <div>
-            <p>{{ $t('site.footer.content') }}</p>
-            <p v-if="$i18n.locale === 'zh'" style="font-size: 12px;">
-              <a href="https://icp.gov.moe" target="_blank" rel="noreferrer">萌ICP备 </a>
-              <a href="https://icp.gov.moe/?keyword=20201005" target="_blank" rel="noreferrer"> 20201005号</a>
-            </p>
-          </div>
-          -->
         </div>
       </v-footer>
     </v-main>
