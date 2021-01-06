@@ -13,29 +13,29 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'フブキボタン',
+    title: '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: '白上フブキの音声ボタン 白上吹雪语音按钮 Voice button for Shirakami Fubuki'
+        content: '星宮汐の音声ボタン 星宮汐语音按钮 Voice button for Hosimiya Sio'
       },
       {
         hid: 'keywords',
         name: 'keywords',
         content:
-          'フブキボタン,FUBUKI BUTTON,狐按钮,hololive,Shirakami Fubuki,白上フブキ,白上吹雪,吹雪,小狐狸,屑狐狸,喵喵狐,语音按钮,ボイスボタン'
+          '语音按钮'
       },
-      { hid: 'og:site_name', property: 'og:site_name', content: 'フブキボタン' },
+      { hid: 'og:site_name', property: 'og:site_name', content: '星宮汐' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://fubuki.moe' },
-      { hid: 'og:title', property: 'og:title', content: 'フブキボタン' },
+      { hid: 'og:title', property: 'og:title', content: '星宮汐' },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: '新しい白上フブキのボイスボタン。私たちの目標は白上フブキの総合的なファンサイトを作ることです。'
+        content: ''
       },
       { hid: 'og:image', property: 'og:image', content: 'https://fubuki.moe/img/og_common.jpg' },
       { name: 'twitter:card', content: 'summary_large_image' },
