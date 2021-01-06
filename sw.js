@@ -28,7 +28,7 @@ workbox.precaching.cleanupOutdatedCaches()
 // --------------------------------------------------
 
 // Register route handlers for runtimeCaching
-workbox.routing.registerRoute(new RegExp('https://cdn.jsdelivr.net/gh/voosc/fubuki-button@master/static/voices/*'), new workbox.strategies.NetworkFirst ({}), 'GET')
-workbox.routing.registerRoute(new RegExp('https://emoji.lonelyion.com/svg/*'), new workbox.strategies.NetworkFirst ({}), 'GET')
+workbox.routing.registerRoute(new RegExp('/voices/*'), new workbox.strategies.NetworkFirst ({}), 'GET')
+workbox.routing.registerRoute(new RegExp('/svg/*'), new workbox.strategies.NetworkFirst ({}), 'GET')
 workbox.routing.registerRoute(new RegExp('/_nuxt/'), new workbox.strategies.CacheFirst ({}), 'GET')
 workbox.routing.registerRoute(new RegExp('/'), new workbox.strategies.NetworkFirst ({}), 'GET')
