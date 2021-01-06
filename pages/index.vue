@@ -79,7 +79,7 @@
             <!-- 计划中的直播 -->
             <div v-for="live in upcoming_lives" :key="live.id">
               <div v-if="live.title.length" :class="dark_text">
-                <span>{{ $t('live.schedule')}}</span>
+                <span>{{ $t('live.schedule') }}</span>
                 <img src="live.upcoming" width="100%" />
               </div>
             </div>
@@ -144,7 +144,7 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 import voice_lists from '~/assets/voices.json';
 import DevWarning from '../components/DevWarning';
 import VoiceBtn from '../components/VoiceBtn';
-import YoutubeLink from '../components/YoutubeLink';
+//import YoutubeLink from '../components/YoutubeLink';
 import SkeletonLoading from '../components/SkeletonLoading';
 import {
   mdiClockOutline,
@@ -159,7 +159,7 @@ import {
 
 export default {
   components: {
-    YoutubeLink,
+    //YoutubeLink,
     VoiceBtn,
     DevWarning,
     SkeletonLoading
