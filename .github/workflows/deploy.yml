@@ -26,7 +26,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
           # The name of the tag. This should come from the webhook payload, `github.GITHUB_REF` when a user pushes a new tag
-          tag_name: v1.0-${{ github.GITHUB_REF }}
+          tag_name: v1.0
           # The name of the release. For example, `Release v1.0.1`
           release_name: Public to CDN
    
