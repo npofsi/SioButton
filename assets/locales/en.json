@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Fubuki Button",
-    "description": "Brand-new voice buttons for Shirakami Fubuki, we are aimming at building a comprehensive project related to Shirakami Fubuki.\n",
+    "title": "Sio Button",
+    "description": "Brand-new voice buttons for Hosimiya Sio, we are aimming at building a comprehensive project related to Shirakami Sio.\n",
     "index": "Home",
     "links": "Links",
     "about": "About",
@@ -19,7 +19,7 @@
     "on_air": "LIVE NOW",
     "loading": "Fetching live data...",
     "no_schedule": "No scheduled live is found.",
-    "notification": "Fubuki Button's website URL has changed to fubuki.moe"
+    "notification": "Sio Button's website URL has changed to hosimiyas.io"
   },
   "control": {
     "self": "Player Control",
@@ -30,8 +30,8 @@
     "overlap": "Overlap Mode",
     "random": "Random Mode",
     "repeat": "Repeat Mode",
-    "full_name": "Shirakami Fubuki",
-    "overlap_title": "Multiple Fubuki Voices"
+    "full_name": "Shirakami Sio",
+    "overlap_title": "Multiple Sio Voices"
   },
   "dev": {
     "title": "Development Mode",

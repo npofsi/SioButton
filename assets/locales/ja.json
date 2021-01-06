@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "フブキボタン",
+    "title": "汐のボタン",
     "description": "新しい白上フブキのボイスボタン。私たちの目標は白上フブキの総合的なファンサイトを作ることです。",
     "index": "ホームページ",
     "links": "友情リンク",
@@ -19,7 +19,7 @@
     "on_air": "ライブ配信中",
     "loading": "生放送で取得中···",
     "no_schedule": "まだ計画中の生放送は発見されていません。",
-    "notification": "日本語から中国語へのビデオ翻訳と校正を募集しています。詳細は[team@fubuki.moe](mailto:team@fubuki.moe)までお問い合わせください。"
+    "notification": "日本語から中国語へのビデオ翻訳と校正を募集しています。詳細は[team@hosimiyas.io](mailto:team@hosimiyas.io)までお問い合わせください。"
   },
   "control": {
     "self": "コントロール",

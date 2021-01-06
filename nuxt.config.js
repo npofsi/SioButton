@@ -30,14 +30,14 @@ export default {
       },
       { hid: 'og:site_name', property: 'og:site_name', content: '星宮汐' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:url', property: 'og:url', content: 'https://fubuki.moe' },
+      { hid: 'og:url', property: 'og:url', content: 'https://hosimiyas.io' },
       { hid: 'og:title', property: 'og:title', content: '星宮汐' },
       {
         hid: 'og:description',
         property: 'og:description',
         content: ''
       },
-      { hid: 'og:image', property: 'og:image', content: 'https://fubuki.moe/img/og_common.jpg' },
+      { hid: 'og:image', property: 'og:image', content: 'https://hosimiyas.io/img/og_common.jpg' },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@lonely_ion' }
     ],
@@ -166,35 +166,4 @@ export default {
       }
     }
   },
-  // This hook is designed for Fubuki-Button only
-  // Remove this code in other fork of button sites
-  hooks: {
-    generate: {
-      // eslint-disable-next-line no-unused-vars
-      done(generator) {
-        if (process.env.IS_VERCEL) {
-          const axios = require('axios').default;
-          const dayjs = require('dayjs');
-          const utc = require('dayjs/plugin/utc');
-          dayjs.extend(utc);
-
-          console.log('Started triggering actions, build time', dayjs.utc().format());
-          axios
-            .post(
-              'https://api.github.com/repos/voosc/fubuki-button/dispatches',
-              {
-                event_type: 'Vercel Build ' + dayjs.utc().format()
-              },
-              {
-                headers: {
-                  Accept: 'application/vnd.github.everest-preview+json',
-                  Authorization: 'token ' + process.env.GH_TOKEN
-                }
-              }
-            )
-            .then(r => console.log(r.statusText));
-        }
-      }
-    }
-  }
 };
