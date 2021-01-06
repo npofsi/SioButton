@@ -17,7 +17,7 @@ jobs:
       - name: Install Dependencies
         run: |
           yarn
-          token = ACCESS_TOKEN
+          token = ${{ secrets.ACCESS_TOKEN }}
 
       - name: Generate Static Files
         run: yarn generate
