@@ -73,18 +73,15 @@
             <div v-for="live in lives" :key="live.id">
               <div v-if="live.title.length" :class="dark_text">
                 <span class="warning--text">{{ $t('live.on_air') }}</span>
-                <youtube-link :video-key="live.yt_video_key" :content="live.title" class="error--text" />
+                <a href="live.video_link">live.title</a>
               </div>
             </div>
             <!-- 计划中的直播 -->
             <div v-for="live in upcoming_lives" :key="live.id">
               <div v-if="live.title.length" :class="dark_text">
-                <span>{{ $t('live.schedule') + format_time(live.live_schedule) }}</span>
-                <youtube-link :video-key="live.yt_video_key" :content="live.title" />
+                <span>{{ $t('live.schedule')}}</span>
+                <img src="live.upcoming" width="100%" />
               </div>
-            </div>
-            <div v-if="lives.length === 0 && upcoming_lives.length === 0">
-              <p>{{ lives_loading ? $t('live.loading') : $t('live.no_schedule') }}</p>
             </div>
             <div class="notification-board" v-html="$md.render($t('live.notification'))"></div>
           </v-card-text>
@@ -252,7 +249,7 @@ export default {
   methods: {
     async fetch_live_data() {
       const query_url = 'https://hosimiyasio.com/api/live.php';
-      const channel = 0; // 意义不明
+      const channel = 0; // 用不上
       this.$axios
         .get(query_url, { params: { channel_id: channel } })
         .then(res => {
