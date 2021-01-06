@@ -71,16 +71,17 @@
           <v-card-text>
             <!-- 正在直播 -->
             <div>
-              <div :class="dark_text">
+              <div v-if="data.live.code != 0" :class="dark_text">
                 <span class="warning--text">{{ $t('live.on_air') }}</span>
-                <a :href="live.video_link">:live.title</a>
+                <a :href="data.live.link" :content="data.live.title">{{ data.live.title }}</a>
+                <img :src="data.live.img" width="100%" />
               </div>
             </div>
             <!-- 计划中的直播 -->
             <div>
               <div :class="dark_text">
                 <span>{{ $t('live.schedule') }}</span>
-                <img :src="live.upcoming" width="100%" />
+                <img :src="data.timetable.img" width="100%" />
               </div>
             </div>
             <div class="notification-board" v-html="$md.render($t('live.notification'))"></div>
@@ -166,8 +167,16 @@ export default {
   },
   data() {
     return {
-      live: {
-        video_link: ''
+      data: {
+        live: {
+          video_link: '',
+          title: 'Undefined',
+          img: ''
+        },
+        timetable: {
+          img: ''
+        },
+        upcoming: ''
       },
       icons: {
         close: mdiClose,
@@ -185,9 +194,8 @@ export default {
       fab: false,
       groups: voice_lists.groups,
       now_playing: new Set(),
-      upcoming_lives: [],
-      lives: [],
-      lives_loading: true
+      lives_loading: true,
+      loading: true
     };
   },
   computed: {
@@ -252,15 +260,15 @@ export default {
   methods: {
     async fetch_live_data() {
       const query_url = 'https://hosimiyasio.com/api/live.php';
-      const channel = 0; // 用不上
+      //const channel = 0; // 用不上
       this.$axios
-        .get(query_url, { params: { channel_id: channel } })
+        .get(query_url, { params: {} })
         .then(res => {
-          this.lives = res.data.live;
-          this.upcoming_lives = res.data.upcoming;
-          this.upcoming_lives.sort((a, b) => {
-            return a.live_schedule > b.live_schedule ? 1 : -1;
-          });
+          this.data.live = res.data.live;
+          this.data.timetable = res.data.timetable;
+          // this.data.timetable.sort((a, b) => {
+          //   return a.live_schedule > b.live_schedule ? 1 : -1;
+          // });
         })
         .catch(err => {
           console.log(err);
