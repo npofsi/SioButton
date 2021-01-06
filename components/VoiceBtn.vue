@@ -28,7 +28,7 @@ export default {
   name: 'VoiceBtn',
   props: {
     emoji: {
-      default: '🌽',
+      default: '🌟',
       type: String
     },
     link: {
