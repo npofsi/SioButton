@@ -73,7 +73,7 @@
             <div v-for="live in lives" :key="live.id">
               <div v-if="live.title.length" :class="dark_text">
                 <span class="warning--text">{{ $t('live.on_air') }}</span>
-                <a href="live.video_link">live.title</a>
+                <a :href="live.video_link">live.title</a>
               </div>
             </div>
             <!-- 计划中的直播 -->
