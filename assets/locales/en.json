@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Sio Button",
-    "description": "Brand-new voice buttons for Hosimiya Sio, we are aimming at building a comprehensive project related to Shirakami Sio.\n",
+    "description": "Brand-new voice buttons for Hosimiya Sio, we are aimming at building a comprehensive project related to Hosimiya Sio.\n",
     "index": "Home",
     "links": "Links",
     "about": "About",
@@ -30,7 +30,7 @@
     "overlap": "Overlap Mode",
     "random": "Random Mode",
     "repeat": "Repeat Mode",
-    "full_name": "Shirakami Sio",
+    "full_name": "Hosimiya Sio",
     "overlap_title": "Multiple Sio Voices"
   },
   "dev": {
