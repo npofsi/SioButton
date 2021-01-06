@@ -9,31 +9,12 @@
       },
       "voice_list": [
         {
-          "name": "f-032",
-          "path": "f-032.mp3",
+          "name": "sio-001",
+          "path": "sio-001.aac",
           "description": {
-            "zh": "(自我介绍)我叫白上吹雪,是只狐狸!",
-            "en": "(Self-intro)I'm Shirakami Fubuki, a fox!",
-            "ja": "自己紹介"
-          }
-        }
-      ]
-    },
-    {
-      "group_name": "nakigoe",
-      "group_description": {
-        "zh": "叫声",
-        "en": "Roaring",
-        "ja": "鳴き声"
-      },
-      "voice_list": [
-        {
-          "name": "f-001",
-          "path": "f-001.mp3",
-          "description": {
-            "zh": "kon-nya-nya-kon~",
-            "en": "kon-nya-nya-kon~",
-            "ja": "こ～んにゃにゃこ～ん~"
+            "zh": "(打招呼)OK，嘿嘿嘿!",
+            "en": "",
+            "ja": ""
           }
         }
       ]
