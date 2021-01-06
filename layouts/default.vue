@@ -84,7 +84,7 @@
       app
     >
       <v-app-bar-nav-icon class="white--text" @click.stop="drawer = !drawer" />
-      <v-toolbar-title v-text="$t('site.title') + '(^・ω・^§)ﾉ'" />
+      <v-toolbar-title v-text="$t('site.title') + '🌟🐧'" />
       <v-img src="/img/oruyanke_transparent.png" style="max-width: 24px; margin-left: 6px;" />
       <v-spacer />
       <v-tooltip bottom>
@@ -133,7 +133,6 @@
               </a>
             </span>
             <span>
-              &
               <a href="https://space.bilibili.com/314977548" target="_blank" rel="noreferrer">
                 {{ $t('site.footer.oruyanke') }}
               </a>
@@ -154,6 +153,7 @@
               <img :src="vercel_logo" alt="vercel" height="16px" />
             </a>
           </div>
+          <!--
           <div>
             <p>{{ $t('site.footer.content') }}</p>
             <p v-if="$i18n.locale === 'zh'" style="font-size: 12px;">
@@ -161,6 +161,7 @@
               <a href="https://icp.gov.moe/?keyword=20201005" target="_blank" rel="noreferrer"> 20201005号</a>
             </p>
           </div>
+          -->
         </div>
       </v-footer>
     </v-main>
@@ -260,28 +261,33 @@ export default {
       fixed: false,
       nav_items: [
         {
+          icon: '/img/twitch-fill.svg',
+          title: 'Twitch',
+          to: 'https://www.twitch.tv/hosimiyasio'
+        },
+        {
           icon: '/img/youtube-fill.svg',
           title: 'Youtube',
-          to: 'https://www.youtube.com/channel/UCdn5BQ06XqgXoAxIhbqw5Rg?sub_confirmation=1'
+          to: 'https://www.youtube.com/channel/UCIqtB1-thWl70YZrKK5NO9w'
         },
         {
           icon: '/img/twitter-fill.svg',
           title: 'Twitter',
-          to: 'https://twitter.com/shirakamifubuki'
+          to: 'https://twitter.com/Hosimiya_Sio'
         },
         {
           icon: '/img/bilibili-fill.svg',
           title: 'Bilibili',
-          to: 'https://space.bilibili.com/332704117'
+          to: 'https://space.bilibili.com/402417817'
         }
-      ],
-      external_cn: [
-        {
-          icon: 'alpha_b_box',
-          title: '御宅白狐的狐笋之林',
-          to: 'https://space.bilibili.com/314977548'
-        }
-      ]
+      ] //,
+      //external_cn: [
+      //  {
+      //    icon: 'alpha_b_box',
+      //    title: '御宅白狐的狐笋之林',
+      //    to: 'https://space.bilibili.com/314977548'
+      //  }
+      //]
     };
   },
   computed: {

@@ -43,8 +43,8 @@ export default {
       .get(api)
       .then(res => {
         this.links = this.shuffle(
-          res.data.filter(function (el) {
-            return el.title !== 'fbk';
+          res.data.filter(function (/*el*/) {
+            return true; //el.title !== 'fbk';
           })
         );
       })
