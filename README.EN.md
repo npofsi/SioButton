@@ -3,7 +3,7 @@
 
 Project Address： https://hosimiyas.io/
 
-Relative Links:
+Related Links:
 
 - [HosimiyaSio's Twitch Channel](https://www.twitch.tv/hosimiyasio)
 - [HosimiyaSio's YouTube Channel](http://bit.ly/38zay0t)
@@ -16,7 +16,7 @@ If you don't know how to use github, please send voices and ideas to [npofsi@out
 
 Certainly you can use [Issues](https://github.com/npofsi/SioButton/issues), with title and content as well.
 
-If you can use github, you can fork this repo, and do follow. 
+If you can use github, you just need to fork this repo, and do follow. 
 
 ### Add or modify voices
 
@@ -24,7 +24,7 @@ Voice file in mp3，bit rates in 128Kbps，store under `static/voices/`，Its UR
 
 All voices are stored in `assets/voices.json`，you should modify it as well.
 
-If you want modify an exist file please delete it and add a new file with different name to avoid browser cache issue.
+If you want modify an exist file, please delete it and add a new file with different name to avoid browser cache issue.
 
 ### Translation
 
