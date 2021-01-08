@@ -72,6 +72,12 @@ export default {
       }
       return array;
     }
+  },
+  head() {
+    return {
+      title: this.$t('site.links') + ' - ' + this.$t('site.links'),
+      link: [{ rel: 'canonical', href: 'https://hosimiyas.io/links' }]
+    };
   }
 };
 </script>
