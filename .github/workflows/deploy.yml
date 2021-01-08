@@ -33,6 +33,8 @@ jobs:
           FOLDER: dist
       
       - name: Autotagger
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         # You may pin to the exact commit or the version.
         # uses: ButlerLogic/action-autotag@3c94e12b387948cec616549993741ea5f1e4469f
         uses: ButlerLogic/action-autotag@1.1.1
