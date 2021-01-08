@@ -36,7 +36,7 @@ Translation files are under `assets/locales/`. Voices translation files are unde
 
 Project based on Vue + NuxtJS + Vuetify, please install node and yarn first.
 
-1. Fork and Clone to local place
+1. Fork and clone to local place
 2. Run `yarn` to install packages.
 3. To run local server, use`yarn dev`, it will run on `localhost:3000`.
 4. To compose, run `yarn generate`, this willgenerate a folder called `dist` which contains static page files.

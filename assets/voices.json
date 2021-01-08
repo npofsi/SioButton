@@ -31,8 +31,26 @@
           "path": "sio-003.mp3",
           "description": {
             "zh": "mei酱!欢迎回家",
-            "en": "MEI-chan! welcome to home!",
+            "en": "Mei-chan! welcome to home!",
             "ja": "めっちゃん！お帰り！"
+          }
+        },
+        {
+          "name": "sio-004",
+          "path": "sio-004.mp3",
+          "description": {
+            "zh": "嗯~~mei酱",
+            "en": "EH~~Mei-chan",
+            "ja": "ん～～めっちゃん"
+          }
+        },
+        {
+          "name": "sio-005",
+          "path": "sio-005.mp3",
+          "description": {
+            "zh": "她回来了，没什么事",
+            "en": "She is back. Nothing happened",
+            "ja": "彼女が帰ってきました。何も起こらなかった"
           }
         }
       ]
