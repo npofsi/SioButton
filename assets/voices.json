@@ -13,8 +13,8 @@
           "path": "sio-001.aac",
           "description": {
             "zh": "(打招呼)OK，嘿嘿嘿!",
-            "en": "",
-            "ja": ""
+            "en": "OK, heyheyhey!",
+            "ja": "OK、へへへ！"
           }
         },
         {
@@ -22,8 +22,8 @@
           "path": "sio-002.mp3",
           "description": {
             "zh": "啊，我女朋友回来啦",
-            "en": "",
-            "ja": ""
+            "en": "AH, my girlfirend went back",
+            "ja": "あ、彼女が帰ってきた"
           }
         },
         {
@@ -31,7 +31,7 @@
           "path": "sio-003.mp3",
           "description": {
             "zh": "mei酱!欢迎回家",
-            "en": "",
+            "en": "MEI-chan! welcome to home!",
             "ja": "めっちゃん！お帰り！"
           }
         }

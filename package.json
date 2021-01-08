@@ -1,8 +1,8 @@
 {
-  "name": "fubuki-button",
-  "version": "1.5.1",
-  "description": "Voice Button for Shirakami Fubuki",
-  "author": "Lonely_ion",
+  "name": "siobutton",
+  "version": "1.5.2",
+  "description": "Voice Button for Hosimiya Sio",
+  "author": "npofsi,hanximeng",
   "private": true,
   "scripts": {
     "dev": "nuxt",

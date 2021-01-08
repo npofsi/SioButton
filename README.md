@@ -51,15 +51,17 @@
 
 开发：
 
-- GitHub [npofsi](https://github.com/npofsi)
+- GitHub [NaP硅](https://github.com/npofsi)
 - GitHub [寒曦朦](https://github.com/hanximeng)
 
 音频剪辑：
 
+- Blog [NaP硅](https://blog.npofsi.pro)
 - Bilibili [寒曦朦](https://space.bilibili.com/28127254)
 
 翻译：
 
+- Blog [NaP硅](https://blog.npofsi.pro)
 
 ## 协议
 

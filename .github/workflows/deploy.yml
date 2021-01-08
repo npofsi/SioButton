@@ -38,13 +38,4 @@ jobs:
         # You may pin to the exact commit or the version.
         # uses: ButlerLogic/action-autotag@3c94e12b387948cec616549993741ea5f1e4469f
         uses: ButlerLogic/action-autotag@1.1.1
-
-      - name: Create a Release
-        uses: actions/create-release@v1.1.4
-        env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-   
-      
+        
