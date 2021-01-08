@@ -17,7 +17,7 @@ README: [中文](https://github.com/npofsi/siobutton/blob/master/README.md) | **
 
 ## このプロジェクトへの貢献(コントリビュート)
 
-GitHub の開発に直接参加する方法が分からない場合は、素材や意見を直接以下のメールアドレスに送信してください。([npofsi@outlook.com](mailto:voice@fubuki.moe))。またメールの中にタイトル、内容及びあなたの ID（Bilibili、Twitter やその他）を記述してください。そうすることで私達は下のコントリビューターリストにあなたの名前を掲載することができます。
+GitHub の開発に直接参加する方法が分からない場合は、素材や意見を直接以下のメールアドレスに送信してください。([npofsi@outlook.com](mailto:npofsi@outlook.com))。またメールの中にタイトル、内容及びあなたの ID（Bilibili、Twitter やその他）を記述してください。そうすることで私達は下のコントリビューターリストにあなたの名前を掲載することができます。
 
 もしくは素材や意見を GitHub の[Issues](https://github.com/npofsi/siobutton/issues) ページに送ることもできます。メールの場合と同じようにタイトルと内容を記述してください。
 
