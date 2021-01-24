@@ -1,22 +1,33 @@
 {
   "groups": [
     {
-      "group_name": "actmoe",
+      "group_name": "daily",
       "group_description": {
-        "zh": "萌",
-        "en": "Moe",
-        "ja": "萌え"
+        "zh": "日常",
+        "en": "~",
+        "ja": "~"
       },
       "voice_list": [
         {
           "name": "sio-001",
           "path": "sio-001.aac",
           "description": {
-            "zh": "(打招呼)OK，嘿嘿嘿!",
+            "zh": "（打招呼）OK，嘿嘿嘿!",
             "en": "OK, heyheyhey!",
             "ja": "OK、へへへ！"
           }
-        },
+        }
+      ]
+    },
+    {
+      "group_name": "actmoe",
+      "group_description": {
+        "zh": "名场景",
+        "en": "~",
+        "ja": "~"
+      },
+      "voice_list": [
+        
         {
           "name": "sio-002",
           "path": "sio-002.mp3",
@@ -51,6 +62,34 @@
             "zh": "她回来了，没什么事",
             "en": "She is back. Nothing happened",
             "ja": "彼女が帰ってきた。何も起こらなかった"
+          }
+        }
+      ]
+    },
+    {
+      "group_name": "learnchinese",
+      "group_description": {
+        "zh": "学中文",
+        "en": "Learning Chinese",
+        "ja": "~"
+      },
+      "voice_list": [
+        {
+          "name": "sio-006",
+          "path": "sio-006.mp3",
+          "description": {
+            "zh": "（顺口溜）吃葡萄不吐葡。。。",
+            "en": "~",
+            "ja": "~"
+          }
+        },
+        {
+          "name": "sio-007",
+          "path": "sio-007.mp3",
+          "description": {
+            "zh": "（顺口溜）四四四，十四十。。。",
+            "en": "~",
+            "ja": "~"
           }
         }
       ]

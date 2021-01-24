@@ -58,6 +58,7 @@
 
 - Blog [NaP硅](https://blog.npofsi.pro)
 - Bilibili [寒曦朦](https://space.bilibili.com/28127254)
+- QQMail [星之幽](mailto://1335851032@qq.com)
 
 翻译：
 
