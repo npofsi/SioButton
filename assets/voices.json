@@ -16,6 +16,33 @@
             "en": "OK, heyheyhey!",
             "ja": "OK、へへへ！"
           }
+        },
+        {
+          "name": "sio-008",
+          "path": "sio-008.mp3",
+          "description": {
+            "zh": "恭汐发财!",
+            "en": "~",
+            "ja": "~"
+          }
+        },
+        {
+          "name": "sio-009",
+          "path": "sio-009.mp3",
+          "description": {
+            "zh": "新年快乐!",
+            "en": "~",
+            "ja": "~"
+          }
+        },
+        {
+          "name": "sio-010",
+          "path": "sio-010.mp3",
+          "description": {
+            "zh": "百~年~好~合~",
+            "en": "~",
+            "ja": "~"
+          }
         }
       ]
     },
