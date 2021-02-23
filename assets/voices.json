@@ -120,6 +120,17 @@
           }
         }
       ]
+    },
+    {
+      "group_name": "mei_chan",
+      "group_description": {
+        "zh": "mei酱",
+        "en": "mei chan",
+        "ja": "めいちゃん"
+      },
+      "voice_list": [
+
+      ]
     }
   ]
 }
