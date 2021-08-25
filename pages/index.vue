@@ -1,6 +1,5 @@
 <template>
   <v-layout column justify-center align-center app>
-    <dev-warning />
     <!-- 播放控制的浮动按钮 -->
     <v-speed-dial
       v-model="fab"
@@ -153,7 +152,6 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 
 <script>
 import voice_lists from '~/assets/voices.json';
-import DevWarning from '../components/DevWarning';
 import VoiceBtn from '../components/VoiceBtn';
 //import YoutubeLink from '../components/YoutubeLink';
 import SkeletonLoading from '../components/SkeletonLoading';
@@ -172,7 +170,6 @@ export default {
   components: {
     //YoutubeLink,
     VoiceBtn,
-    DevWarning,
     SkeletonLoading
   },
   data() {
