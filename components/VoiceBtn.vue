@@ -39,7 +39,7 @@ export default {
   data() {
     return {
       twe_para: {
-        base: 'https://emoji.lonelyion.com',
+        base: 'https://twemoji.maxcdn.com/v/latest',
         folder: '/svg',
         ext: '.svg'
       },
