@@ -70,9 +70,9 @@
           <v-card-text>
             <!-- 正在直播 -->
             <v-container>
-              <v-row>
+              <el-row>
                 <!-- 计划中的直播 -->
-                <v-col :xs="12" :md="6">
+                <el-col :xs="12" :md="6">
                   <div>
                     <div :class="dark_text">
                       <span>{{ $t('live.schedule') }}</span>
@@ -80,8 +80,8 @@
                       <img :src="data.timetable.img" width="100%" />
                     </div>
                   </div>
-                </v-col>
-                <v-col :xs="12" :md="6">
+                </el-col>
+                <el-col :xs="12" :md="6">
                   <div>
                     <div v-if="data.live.code != 0" :class="dark_text">
                       <span class="warning--text">{{ $t('live.on_air') }}</span>
@@ -90,8 +90,8 @@
                       <img referrerpolicy="noreferrer" :src="data.live.img" width="100%" />
                     </div>
                   </div>
-                </v-col>
-              </v-row>
+                </el-col>
+              </el-row>
             </v-container>
             <div class="notification-board" v-html="$md.render($t('live.notification'))"></div>
           </v-card-text>
