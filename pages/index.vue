@@ -72,14 +72,14 @@
             <v-container>
               <v-row>
                 <!-- 计划中的直播 -->
-                  <div :class="col-xs-12 col-md-6">
+                  <div class="col-xs-12 col-md-6">
                     <div :class="dark_text">
                       <span>{{ $t('live.schedule') }}</span>
                       <br />
                       <img :src="data.timetable.img" width="100%" />
                     </div>
                   </div>
-                  <div :class="col-xs-12 col-md-6">
+                  <div class="col-xs-12 col-md-6">
                     <div v-if="data.live.code != 0" :class="dark_text">
                       <span class="warning--text">{{ $t('live.on_air') }}</span>
                       <a :href="data.live.link" :content="data.live.title">{{ data.live.title }}</a>
