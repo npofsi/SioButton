@@ -72,7 +72,7 @@
             <v-container>
               <v-row>
                 <!-- 计划中的直播 -->
-                <v-col xs12 md6>
+                <v-col :xs="12" :md="6">
                   <div>
                     <div :class="dark_text">
                       <span>{{ $t('live.schedule') }}</span>
@@ -81,7 +81,7 @@
                     </div>
                   </div>
                 </v-col>
-                <v-col xs12 md6>
+                <v-col :xs="12" :md="6">
                   <div>
                     <div v-if="data.live.code != 0" :class="dark_text">
                       <span class="warning--text">{{ $t('live.on_air') }}</span>
